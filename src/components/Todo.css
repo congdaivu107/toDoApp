@@ -1,0 +1,26 @@
+/* Todo.css */
+.todo-app {
+    text-align: center;
+  }
+  
+  .todo-list {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 5px;
+  }
+  
+  .todo-item .ant-checkbox + span {
+    margin-left: 10px;
+  }
+  
